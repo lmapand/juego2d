@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<ataques>
+    <ataque nombre="String:req nombre del ataque para referenciar en el mapa"
+     tipo ="int:req Tipo del ataque, segun las constantes de la clase DefAtaque: ( TIPO_ATAQUE_DISTANCIA=0;TIPO_ATAQUE_FISICO=1;ATAQUE_EXPLOSION_SUICIDA=2)
+     tiempo_ejecucion_base ="float:req timepo necesario para ejecutar el ataque"
+     dano_base="int:req daño base que hace este ataque"
+     proyectil="String:opt nombre del proyectil generado en el mapa de proyectiles, en caso de que sea un ataque de tipo TIPO_ATAQUE_DISTANCIA"
+     explosion="int:opt: Si el ataque es de tipo suicida, indica el radio de explosion
+     coste="opt:int numero de cargas/ maná requerido para su ejecucion" />
+</ataques>
+-->
+<ataques>
+    <ataque nombre="Proyectil igneo" tipo="0" tiempo_ejecucion="0.5" dano_base="60" ref_sonido="invocar bola fuego" proyectil="Bola de Fuego" coste="15"  />
+    <ataque nombre="Obús igneo" tipo="0" tiempo_ejecucion="0.8" dano_base="100" ref_sonido="invocar bola fuego" proyectil="Bola de Fuego" coste="25"  />
+    <ataque nombre="Tormenta de Fuego" tipo="0" tiempo_ejecucion="1.2" dano_base="200" ref_sonido="invocar bola fuego" proyectil="Bola de Fuego" coste="45"  />
+
+    <ataque nombre="Vareada" tipo="1"  tiempo_ejecucion="0.5" ref_sonido="golpe baston" dano_base="30" />
+    <ataque nombre="Vareada Mágica" tipo="1"  tiempo_ejecucion="0.5" ref_sonido="golpe baston" dano_base="50"  coste="10" />
+    <ataque nombre="Conmoción Bastonil" tipo="1"  tiempo_ejecucion="0.5" ref_sonido="golpe baston" dano_base="70"  coste="15" />
+
+    <ataque nombre="Reventón" tipo="2"  tiempo_ejecucion="0.5" dano_base="70"  ref_sonido="preparando explosion balon"  radio="45" />
+    <ataque nombre="Reventón cósmico" tipo="2"  tiempo_ejecucion="0.5" dano_base="95"  ref_sonido="preparando explosion balon"  radio="50" />
+
+    <ataque nombre="Bola 8" tipo="0"  tiempo_ejecucion="1.5" ref_sonido="generar bola" proyectil="Pelotilla negra" dano_base="50" />
+</ataques>

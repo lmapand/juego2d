@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<enemigo 
+	nombre="String:req nombre bicho" 
+	pv="int:req puntos vida" 
+	regenera="int:opt segundos para recuperar un punto"
+	velocidad="int:opt velocidad base de desplazamiento"
+	dist_percepcion="float:req distancia a la que detectan enemigos" 
+	animacion="string:req nombre del sprotesheet en la carpeta imagenes" 
+	v_reproduccion_anim="float:req velocidad a la que se reproduce la animacion"
+	xp="int:req Puntos de experiencia que otorga la muerte del bicho"
+	/>
+		<ataque ref="String:req referencia a un ataque existente" anim="referencia a la animacion(imagen) a cargar..." />
+			....
+			....
+		</ataque>
+	</enemigo>
+-->
+<enemigos>
+	<enemigo nombre="Pelota Maligna" pv="100" velocidad="25" dist_percepcion="128.0" animacion="pelota_maligna_spritesheet" 
+			v_reproduccion_animacion="0.10" xp="25">
+			<ataque ref="Reventón" anim="" />
+			<ataque ref="Bola 8" anim="" />
+	</enemigo>
+</enemigos>

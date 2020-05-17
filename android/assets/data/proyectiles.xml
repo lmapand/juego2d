@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Todo: sonido de impacto-->
+<proyectiles>
+	<proyectil nombre="Bola de Fuego" velocidad="120" animacion="bola de fuego" radio_deteccion="32.0" sonido="fuego01" />
+	<proyectil nombre="Pelotilla negra" velocidad="80" animacion="bola negra" radio_deteccion="32.0" sonido="bola escupida" />
+</proyectiles>

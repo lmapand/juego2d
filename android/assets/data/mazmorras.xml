@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mazmorras>
+	<mazmorra nombre="Entrada al Laberinto" archivo="mazmorra01.tmx">
+		<enemigos>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="1" y="1" />
+				<patrulla x="6" y="18" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="18" y="1" />
+				<patrulla x="1" y="1" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="14" y="8" />
+				<patrulla x="1" y="8" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="17" y="17" />
+				<patrulla x="18" y="1" />
+			</enemigo>
+					<enemigo ref="Pelota Maligna" >
+				<patrulla x="13" y="5" />
+				<patrulla x="13" y="18" />
+			</enemigo>
+		</enemigos>
+	</mazmorra>
+	<mazmorra nombre="El Laberinto" archivo="mazmorra02.tmx">
+		<enemigos>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="23" y="37" />
+				<patrulla x="21" y="25" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="38" y="21" />
+				<patrulla x="23" y="24" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="1" y="1" />
+				<patrulla x="19" y="37" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="23" y="29" />
+				<patrulla x="35" y="26" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="38" y="13" />
+				<patrulla x="38" y="1" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="1" y="37" />
+				<patrulla x="1" y="9" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="13" y="21" />
+				<patrulla x="2" y="13" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="16" y="37" />
+				<patrulla x="2" y="29" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="37" y="5" />
+				<patrulla x="20" y="37" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna">
+				<patrulla x="7" y="25" />
+				<patrulla x="4" y="17" />
+			</enemigo>																					
+		</enemigos>
+	</mazmorra>
+	<mazmorra nombre="El Merendero" archivo="mazmorra03.tmx">
+		<enemigos>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="18" y="1" />
+				<patrulla x="18" y="12" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="4" y="12" />
+				<patrulla x="4" y="1" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="7" y="1" />
+				<patrulla x="7" y="12" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="10" y="12" />
+				<patrulla x="10" y="1" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="13" y="1" />
+				<patrulla x="13" y="12" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="1" y="3" />
+				<patrulla x="15" y="10" />
+			</enemigo>
+			<enemigo ref="Pelota Maligna" >
+				<patrulla x="15" y="3" />
+				<patrulla x="1" y="9" />
+			</enemigo>
+		</enemigos>
+	</mazmorra>
+</mazmorras>
+
+
+
+
+
+
+
+
+
+
+
+

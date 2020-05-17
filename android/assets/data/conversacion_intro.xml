@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <conversacion
+	actor="String:req Maestro|Tu|Canduterio|Sistema  nombre del actor que ejecuta la conversacion>
+	"String:req lo que dice el actor"
+		</conversacion>
+	-->
+<conversaciones>
+	<conversacion actor="Maestro">Ah, eres tu!
+	
+Hoy es un gran dia: has superado el modulo de Magia de Fuego y Papiroflexia!
+
+Estoy orgulloso de ti.</conversacion>
+	<conversacion actor="Tu">Si, maestro.</conversacion>
+	<conversacion actor="Maestro">Solo falta realizar el ritual que hace oficial el modulo, la cata de la empanada de bertorella.
+
+Por suerte he conseguido la ultima que quedaba en la panaderia</conversacion>
+		<conversacion actor="Tu">Que bien, maestro...</conversacion>
+		<conversacion actor="Maestro">Veamos, la deje aqui...
+		
+[Rebusca en una caja cercana]
+		
+No puede ser! ha desaparecido!</conversacion>
+		<conversacion actor="Canduterio">[UNA FIGURA SINIESTRA VESTIDA CON UNA TUNICA ROJA SE MATERIALIZA DELANTE DE VOSOTROS, SOSTENIENDO UNA EMPANADA EN LA MANO]
+		
+JA JA JA, Buscabais ESTO?
+		
+Pues olvidaos de ella. AHora es MIA.</conversacion>
+		<conversacion actor="Maestro">Oh no! Es Canduterio, el Nigromante supremo de Montouto!
+		
+Nos ha  robado la empanada, y sin ella no podemos oficializar el titulo.</conversacion>
+		<conversacion actor="Tu">[PONES CARA DE CIRCUNSTANCIAS]</conversacion>
+		<conversacion actor="Maestro">Solo hay una solucion:
+		
+Adentrate en las profundidades de su santuario, y recuperala.
+		
+Ademas, si lo consigues, te subire la nota final 1.5 puntos</conversacion>
+		<conversacion actor="Tu">Pero, maestro... y si no lo consigo?</conversacion>
+		<conversacion actor="Maestro">Ummm, bueno, en ese caso yo no me preocuparia mucho por el modulo ...</conversacion>
+		<conversacion actor="Canduterio">Ven si te atreves! Mis esbirros te estaran esperando...
+		
+[LA IMAGEN DEL NIGROMANTE SE DESVANECE]</conversacion>
+		<conversacion actor="Maestro">Parte ya, joven discipulo.
+		
+Ten cuidado con sus esbirros. El hechicero es un maestro de la mecanica, y aficionado a construir automatas para que jueguen con el al billar</conversacion>
+		<conversacion actor="Tu">[PONES CARA DE NO ENTENDER NADA]</conversacion>
+		<conversacion actor="Maestro">Cuando entres en sus dominios lo entenderas.
+		
+Por cierto, tambien es posible que te encuentres con los Caladi/os Perdidos: unos seguidores de la Semana Santa ferrolana que hace incontable tiempo se perdieron en ese lugar.
+		
+Parte ya sin mas demora, y que tengas suerte!</conversacion>
+		<conversacion actor="Tu">Si, maestro...</conversacion>
+		<conversacion actor="Sistema">En cada nivel hay una llave, debes BUSCARLA. Una vez la hayas encontrado, busca la SALIDA para pasar al siguiente nivel.
+		
+Controles y Consejos:
+* Teclas [A,S,D,W] / TouchPad(Android) para desplazarse
+* [ESPACIO]/ Boton Circulo(Android) Bola de Fuego
+* [F]/Boton Basto(Android)  Ataque Vareada (no disponible al principio)
+* Teclas [P]/ [ESC]/ Boton pausa(Androdid) pausa del juego.
+* Se recomineda un conocimiento minimo de billar y de ritos de Semana Santa.</conversacion>
+</conversaciones>
